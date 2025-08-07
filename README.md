@@ -12,7 +12,7 @@
 
 - 프로젝트명 : Smart Parking System
 - 키오스크 개발인원 : 2명
-- 프로젝트 기간: ??
+- 프로젝트 기간: 2025.06.25~2025.07.11(16일)
 
 <br />
 
@@ -85,15 +85,15 @@
 ![Image](https://github.com/user-attachments/assets/35e12776-98d6-42fc-b91e-ca3230477a77)
 
 ### 회원가입 화면
-<img width="1000"  alt="회원가입" src="https://github.com/user-attachments/assets/cf0ac3cb-304c-4336-966b-3d2639606b8f" />
+<img width="900"  alt="회원가입" src="https://github.com/user-attachments/assets/cf0ac3cb-304c-4336-966b-3d2639606b8f" />
 
 ### 입차등록 화면
-<img width="1000" alt="입차등록" src="https://github.com/user-attachments/assets/0a4ca436-40e1-48de-8ccb-8b61293fbf87" />
+<img width="900" alt="입차등록" src="https://github.com/user-attachments/assets/0a4ca436-40e1-48de-8ccb-8b61293fbf87" />
 
 ### 주차기록 조회 화면
-<img width="1000" alt="주차기록" src="https://github.com/user-attachments/assets/c7486d6b-491e-445e-bae0-25eb168faab5" />
+<img width="900" alt="주차기록" src="https://github.com/user-attachments/assets/c7486d6b-491e-445e-bae0-25eb168faab5" />
 
 ### 멤버쉽관리 화면
-<img width="1000"  alt="멤버쉽관리" src="https://github.com/user-attachments/assets/7b49ac7e-66f6-48ab-a521-84deef274f2e" />
+<img width="900"  alt="멤버쉽관리" src="https://github.com/user-attachments/assets/7b49ac7e-66f6-48ab-a521-84deef274f2e" />
 
 <br/>
