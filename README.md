@@ -8,6 +8,22 @@
 
 <br/>
 
+## 🗓 프로젝트 개요
+
+- 프로젝트명 : Smart Parking System
+- 키오스크 개발인원 : 2명
+- 프로젝트 기간: ??
+
+<br />
+
+## 👥 역할 분담
+
+| 이름 | 담당 역할 |
+|------|------------|
+| Rachel (Seojeong Yun) | 풀스택, 마이페이지 화면 및 기능 구현 |
+| Seong Won Park| 풀스택, 관리자 페이지 화면 및 기능 구현 |
+<br />
+
 ## 🛠️ Tech Stack
 
 - **Language/Backend**: Java, JSP, Servlet, JDBC
@@ -63,10 +79,21 @@
 
 <br/>
 
-## 📸 주요 화면 (예시)
+## 📸 주요 화면 
+### 초기 화면
 
-> ![입차 등록 화면](./screenshots/entry.png)  
-> ![출차 처리 화면](./screenshots/exit.png)  
-> ![관리자 현황 페이지](./screenshots/admin_dashboard.png)
+![Image](https://github.com/user-attachments/assets/35e12776-98d6-42fc-b91e-ca3230477a77)
+
+### 회원가입 화면
+<img width="1000"  alt="회원가입" src="https://github.com/user-attachments/assets/cf0ac3cb-304c-4336-966b-3d2639606b8f" />
+
+### 입차등록 화면
+<img width="1000" alt="입차등록" src="https://github.com/user-attachments/assets/0a4ca436-40e1-48de-8ccb-8b61293fbf87" />
+
+### 주차기록 조회 화면
+<img width="1000" alt="주차기록" src="https://github.com/user-attachments/assets/c7486d6b-491e-445e-bae0-25eb168faab5" />
+
+### 멤버쉽관리 화면
+<img width="1000"  alt="멤버쉽관리" src="https://github.com/user-attachments/assets/7b49ac7e-66f6-48ab-a521-84deef274f2e" />
 
 <br/>
