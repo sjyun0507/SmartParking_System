@@ -97,3 +97,10 @@
 <img width="900"  alt="멤버쉽관리" src="https://github.com/user-attachments/assets/7b49ac7e-66f6-48ab-a521-84deef274f2e" />
 
 <br/>
+## 📸 기능 시연
+<p>.</p>
+
+![cafe Kiosk]()
+
+
+<br />
