@@ -98,9 +98,10 @@
 
 <br/>
 ## 📸 기능 시연
-<p>.</p>
+<p></p>
 
-![cafe Kiosk]()
+![SmartParing1](https://github.com/user-attachments/assets/b1da4eb3-97eb-4f53-8114-77e0cd778511)
 
+![SmartParing2](https://github.com/user-attachments/assets/06867204-e31a-4f3f-91a5-f86936120e9d)
 
 <br />
