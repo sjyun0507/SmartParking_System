@@ -1,111 +1,123 @@
 # Smart Parking System
 
-**Smart Parking System**은 차량의 입출차 관리, 요금 계산, 실시간 주차 현황, 정기권 및 할인 정책 등  
-다양한 기능을 포함한 **웹 기반 주차장 통합 관리 시스템**입니다.  
+**Smart Parking System**은 차량의 입출차 관리, 요금 계산, 정기권 및 할인 정책 등  주차장 운영 전반을 효율적으로 관리할 수 있는 **웹 기반 통합 주차 관리 시스템**입니다.  
+**JSP + Servlet + JDBC** 기반의 MVC 구조로 설계되었으며,  로그인 → 입출차 → 요금 계산 → 마이페이지/관리자 페이지까지 전 과정을 직접 구현했습니다.
 
-**JSP + Servlet + JDBC** 기반의 MVC 구조로 설계되었으며,  
-웹 서비스 전체 흐름(로그인 → 이용 → 마이페이지/관리자 대시보드)까지 직접 설계하고 구현했습니다.
+---
 
-<br/>
+## Project Overview
 
-## 프로젝트 개요
+- **프로젝트명**: Smart Parking System  
+- **개발 인원**: 2명  
+- **기간**: 2025.06.25 ~ 2025.07.11 (16일)  
+- **구성**: 사용자 키오스크 + 관리자 웹 관리 페이지  
 
-- 프로젝트명 : Smart Parking System
-- 키오스크 개발인원 : 2명
-- 프로젝트 기간: 2025.06.25~2025.07.11(16일)
+---
 
-<br />
-
-## 역할 분담
+## Team Role
 
 | 이름 | 담당 역할 |
 |------|------------|
-| Rachel (Seojeong Yun) | 풀스택, 마이페이지 화면 및 기능 구현 |
-| Seong Won Park| 풀스택, 관리자 페이지 화면 및 기능 구현 |
-<br />
+| **Rachel (Seojeong Yun)** | 풀스택 개발 · 마이페이지 및 사용자 기능 구현 |
+| **Seong Won Park** | 풀스택 개발 · 관리자 페이지 및 대시보드 구현 |
+
+---
 
 ## Tech Stack
 
-- **Language/Backend**: Java, JSP, Servlet, JDBC
-- **Database**: MariaDB
-- **Frontend**: HTML, CSS, JavaScript, jQuery
-- **Tools**: IntelliJ IDEA, Apache Tomcat, DBeaver, Git
+- **Language / Backend**: Java, JSP, Servlet, JDBC  
+- **Database**: MariaDB  
+- **Frontend**: HTML, CSS, JavaScript, jQuery  
+- **Tools**: IntelliJ IDEA, Apache Tomcat, DBeaver, Git  
 
-<br/>
+---
 
-## 프로젝트 주요 특징
+## Core Features
 
--  **차량 입출차 관리**: 입차/출차 시간 자동 기록, 요금 계산 로직 구현
--  **요금 계산 + 할인 정책**: 기본 요금, 장기 주차 요금, 정기권 할인 기능 포함
--  **로그인 인증 및 관리자 권한 분리**: 세션 기반 인증, 필터(Filter)로 권한 체크
--  **실시간 주차 현황**: 현재 주차 중인 차량 수, 장기 주차 차량 알림 기능
--  **공지사항, 마이페이지, 관리자 대시보드 등 웹 서비스 전반 구성**
--  **Git 브랜치 전략 및 협업 가이드 정리**: 팀원들과 IntelliJ 기반 협업
+- **차량 입출차 관리** – 입차/출차 시간 기록 및 요금 자동 계산  
+- **요금 계산 + 할인 정책** – 기본/추가 요금, 정기권 할인 기능  
+- **로그인 및 권한 분리** – 세션 기반 인증, 관리자 필터 적용  
+- **실시간 주차 현황 조회** – 주차 중 차량 수 및 장기 주차 알림  
+- **공지사항 / 마이페이지 / 관리자 대시보드** 전체 구현  
+- **Git 브랜치 전략 적용 및 협업 워크플로우 정리**
 
-<br/>
+---
 
-## 주요 기능
-
-### 사용자(User)
-- **입차 등록**: 차량번호 입력 → 입차 시각 DB 저장
-- **출차 처리**: 출차 시각 기록 + 요금 계산 + 할인 적용
-- **정기권 등록 및 확인**
-- **내 주차 이력 확인 (마이페이지)**
-- **공지사항 확인**
-
-### 관리자(Admin)
-- **전체 주차 현황 모니터링**
-- **장기 주차 차량 알림**
-- **공지사항 등록/수정**
-- **관리자 대시보드**: 차량 목록, 요금 통계 등
-
-<br/>
-
-## 요금/정책 로직 예시
+## 요금 / 정책 로직 예시
 
 | 항목 | 내용 |
 |------|------|
-| 기본 요금 | 1시간 2,000원 |
-| 추가 요금 | 30분당 1,000원 |
-| 장기 주차 | 24시간 이상 주차 차량 별도 표시 |
-| 할인 정책 | 정기권 소지 시 요금 면제 or 할인 적용 |
+| **기본 요금** | 1시간 2,000원 |
+| **추가 요금** | 30분당 1,000원 |
+| **장기 주차** | 24시간 이상 차량 별도 표시 |
+| **할인 정책** | 정기권 소지 시 요금 면제 또는 할인 적용 |
 
+---
 
-## 프로젝트 회고
+## 주요 화면
 
-- Servlet을 이용한 **클래식한 MVC 웹 아키텍처**를 처음부터 직접 설계하고 구성함으로써 Java 웹 개발의 구조와 흐름을 깊이 이해할 수 있었음
-- JDBC를 통해 SQL과 자바 로직을 연결하고, 시간 차 계산 및 상태 출력 등 **백엔드 중심의 핵심 로직 처리** 경험
-- 유지보수를 고려하여 **기능별 클래스 분리**, 유틸리티 클래스 구성 등 코드 구조화에 신경 씀
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>초기 화면</b><br/>
+      <sub>사용자 첫 진입 페이지</sub><br/><br/>
+      <img alt="초기 화면" src="https://github.com/user-attachments/assets/35e12776-98d6-42fc-b91e-ca3230477a77" width="100%"/>
+    </td>
+    <td width="50%" valign="top">
+      <b>회원가입</b><br/>
+      <sub>사용자 정보 등록 및 로그인 연동</sub><br/><br/>
+      <img alt="회원가입" src="https://github.com/user-attachments/assets/cf0ac3cb-304c-4336-966b-3d2639606b8f" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>입차 등록</b><br/>
+      <sub>차량번호 입력 → 입차 시각 DB 저장</sub><br/><br/>
+      <img alt="입차 등록" src="https://github.com/user-attachments/assets/0a4ca436-40e1-48de-8ccb-8b61293fbf87" width="100%"/>
+    </td>
+    <td width="50%" valign="top">
+      <b>주차기록 조회</b><br/>
+      <sub>이용 내역 및 요금 결제 정보 확인</sub><br/><br/>
+      <img alt="주차기록 조회" src="https://github.com/user-attachments/assets/c7486d6b-491e-445e-bae0-25eb168faab5" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>멤버십 관리</b><br/>
+      <sub>정기권 등록 / 기간별 할인 정책 확인</sub><br/><br/>
+      <img alt="멤버십 관리" src="https://github.com/user-attachments/assets/7b49ac7e-66f6-48ab-a521-84deef274f2e" width="100%"/>
+    </td>
+    <td width="50%" valign="top">
+      <b>관리자 대시보드</b><br/>
+      <sub>전체 차량 목록 / 요금 통계 / 공지사항 관리</sub><br/><br/>
+      <img alt="관리자 대시보드" src="https://github.com/user-attachments/assets/b1da4eb3-97eb-4f53-8114-77e0cd778511" width="100%"/>
+    </td>
+  </tr>
+</table>
 
-<br/>
+---
 
-## 주요 화면 
-### 초기 화면
+## Demo Preview
 
-![Image](https://github.com/user-attachments/assets/35e12776-98d6-42fc-b91e-ca3230477a77)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>홈화면 → 페이지 이동</b><br/><br/>
+      <img alt="기능 시연1" src="https://github.com/user-attachments/assets/b1da4eb3-97eb-4f53-8114-77e0cd778511" width="100%"/>
+    </td>
+    <td width="50%" valign="top">
+      <b>로그인 → 마이페이지 이동</b><br/><br/>
+      <img alt="기능 시연2" src="https://github.com/user-attachments/assets/06867204-e31a-4f3f-91a5-f86936120e9d" width="100%"/>
+    </td>
+  </tr>
+</table>
 
-### 회원가입 화면
-<img width="900"  alt="회원가입" src="https://github.com/user-attachments/assets/cf0ac3cb-304c-4336-966b-3d2639606b8f" />
+---
 
-### 입차등록 화면
-<img width="900" alt="입차등록" src="https://github.com/user-attachments/assets/0a4ca436-40e1-48de-8ccb-8b61293fbf87" />
+## Retrospective
 
-### 주차기록 조회 화면
-<img width="900" alt="주차기록" src="https://github.com/user-attachments/assets/c7486d6b-491e-445e-bae0-25eb168faab5" />
+- Servlet 기반 **클래식 MVC 웹 구조**를 직접 설계하며 백엔드 로직 이해도 향상  
+- JDBC를 통한 **SQL–Java 연동** 및 시간 계산 로직 구현 경험  
+- 유지보수를 고려한 **기능별 클래스 구조화 및 유틸리티 분리**  
+- 협업 중 Git 브랜치 전략을 적용하여 안정적인 팀 개발 경험  
 
-### 멤버쉽관리 화면
-<img width="900"  alt="멤버쉽관리" src="https://github.com/user-attachments/assets/7b49ac7e-66f6-48ab-a521-84deef274f2e" />
-
-<br/>
-
-## 기능 시연
-
-<p>홈화면 - 각 페이지</p>
-
-![SmartParing1](https://github.com/user-attachments/assets/b1da4eb3-97eb-4f53-8114-77e0cd778511)
-
-<p>로그인 - 마이페이지</p>
-
-![SmartParing2](https://github.com/user-attachments/assets/06867204-e31a-4f3f-91a5-f86936120e9d)
-
-<br />
