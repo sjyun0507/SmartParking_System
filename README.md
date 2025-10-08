@@ -92,6 +92,8 @@
       <b>홈화면 → 페이지 이동</b><br/><br/>
       <img alt="기능 시연1" src="https://github.com/user-attachments/assets/b1da4eb3-97eb-4f53-8114-77e0cd778511" width="100%"/>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <b>로그인 → 마이페이지 이동</b><br/><br/>
       <img alt="기능 시연2" src="https://github.com/user-attachments/assets/06867204-e31a-4f3f-91a5-f86936120e9d" width="100%"/>
