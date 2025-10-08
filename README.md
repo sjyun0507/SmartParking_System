@@ -1,7 +1,6 @@
 # Smart Parking System
 
-**Smart Parking System**은 차량의 입출차 관리, 요금 계산, 정기권 및 할인 정책 등  주차장 운영 전반을 효율적으로 관리할 수 있는 **웹 기반 통합 주차 관리 시스템**입니다.  
-**JSP + Servlet + JDBC** 기반의 MVC 구조로 설계되었으며,  로그인 → 입출차 → 요금 계산 → 마이페이지/관리자 페이지까지 전 과정을 직접 구현했습니다.
+**Smart Parking System**은 차량의 입출차 관리, 요금 계산, 정기권 및 할인 정책 등  주차장 운영 전반을 효율적으로 관리할 수 있는 **웹 기반 통합 주차 관리 시스템**입니다.  **JSP + Servlet + JDBC** 기반의 MVC 구조로 설계되었으며,  로그인 → 입출차 → 요금 계산 → 마이페이지/관리자 페이지까지 전 과정을 직접 구현했습니다.
 
 ---
 
@@ -59,14 +58,14 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>초기 화면</b><br/>
-      <sub>사용자 첫 진입 페이지</sub><br/><br/>
-      <img alt="초기 화면" src="https://github.com/user-attachments/assets/35e12776-98d6-42fc-b91e-ca3230477a77" width="100%"/>
-    </td>
-    <td width="50%" valign="top">
       <b>회원가입</b><br/>
       <sub>사용자 정보 등록 및 로그인 연동</sub><br/><br/>
       <img alt="회원가입" src="https://github.com/user-attachments/assets/cf0ac3cb-304c-4336-966b-3d2639606b8f" width="100%"/>
+    </td>
+    <td width="50%" valign="top">
+      <b>멤버십 관리</b><br/>
+      <sub>정기권 등록 / 기간별 할인 정책 확인</sub><br/><br/>
+      <img alt="멤버십 관리" src="https://github.com/user-attachments/assets/7b49ac7e-66f6-48ab-a521-84deef274f2e" width="100%"/>
     </td>
   </tr>
   <tr>
@@ -79,18 +78,6 @@
       <b>주차기록 조회</b><br/>
       <sub>이용 내역 및 요금 결제 정보 확인</sub><br/><br/>
       <img alt="주차기록 조회" src="https://github.com/user-attachments/assets/c7486d6b-491e-445e-bae0-25eb168faab5" width="100%"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>멤버십 관리</b><br/>
-      <sub>정기권 등록 / 기간별 할인 정책 확인</sub><br/><br/>
-      <img alt="멤버십 관리" src="https://github.com/user-attachments/assets/7b49ac7e-66f6-48ab-a521-84deef274f2e" width="100%"/>
-    </td>
-    <td width="50%" valign="top">
-      <b>관리자 대시보드</b><br/>
-      <sub>전체 차량 목록 / 요금 통계 / 공지사항 관리</sub><br/><br/>
-      <img alt="관리자 대시보드" src="https://github.com/user-attachments/assets/b1da4eb3-97eb-4f53-8114-77e0cd778511" width="100%"/>
     </td>
   </tr>
 </table>
